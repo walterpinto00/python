@@ -8,6 +8,7 @@ El documento central requiere construir el código en Python para cada uno de lo
 
 * Un programa que pregunte la edad de una persona y determine si es elegible para obtener una licencia de conducir, la licencia se obtiene a partir de los 18 años de edad[cite: 1].
 * Un programa para un restaurante en Medellín que calcule el total a pagar por una comida, considerando un descuento del 10% los lunes y miércoles para los clientes que consuman más de 50.000 pesos[cite: 1].
+* Entre otros
 * La evaluación de un estudiante en Bogotá para determinar si es elegible para una beca parcial o completa dependiendo de que el promedio es mayor o igual a 4.0 y los ingresos son menores a 2 salarios mínimos[cite: 1].
 * El cálculo del impuesto a pagar según el salario anual y el estado civil del contribuyente en Colombia[cite: 1].
 
