@@ -1,14 +1,13 @@
 #Ejercicio:Escribír un programa que le pida al usuario ingresar dos palabras y las guarde en dos variables, y que luego imprima True si la primera palabra es menor que la segunda o False si no lo es.
-#Autor:Stiven Aparicio Vega
-#Fecha:25/09/2025
+#Autor:Walter Fabian Pinto Gutierrez
+#Fecha:02/08/2026
 #Entradas
-palabra1=input("Escriba la primera palabra: ")
-palabra2=input("Escriba la segunda palabra: ")
-if(palabra1<palabra2):
-    resultado=True
-    print(resultado)
-elif(palabra1>palabra2):
-    resultado=False
-    print(resultado)
+palabra1 = input("Ingrese la primera palabra: ")
+palabra2 = input("Ingrese la segunda palabra: ")
+print("Comparando:", palabra1, "vs", palabra2)
+if palabra1 < palabra2:
+    print("La primera palabra va antes alfabeticamente:", True)
+elif palabra1 > palabra2:
+    print("La primera palabra va despues alfabeticamente:", False)
 else:
-    print("Error")
+    print("Las dos palabras son iguales")
