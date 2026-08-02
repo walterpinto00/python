@@ -1,9 +1,11 @@
 #Ejercicio:Escribe un programa que pregunte la edad de una persona y determine si es elegible para obtener una licencia de conducir, la licencia se obtiene a partir de los 18 años de edad
-#Autor:Stiven Aparicio Vega
-#Fecha:25/09/2025
+#Autor:Walter Fabian Pinto Gutierrez
+#Fecha:02/08/2026
 #Entradas
-edad=int(input("Escribe cuantos años tienes: "))
-if(edad>=18):
-    print("Al tener",edad,"años si puedes tener una licencia de conducir")
+edad = int(input("Por favor ingrese su edad: "))
+if edad >= 18:
+    print("Con", edad, "años de edad, SI puede obtener una licencia de conducir")
+elif edad > 0:
+    print("Con", edad, "años de edad, NO puede obtener una licencia de conducir aun")
 else:
-    print("No tienes la edad suficiente para tener una licencia de conducir")
+    print("La edad ingresada no es valida")
