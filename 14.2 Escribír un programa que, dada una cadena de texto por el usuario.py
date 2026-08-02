@@ -1,12 +1,11 @@
 #Ejercicio:Escribír un programa que, dada una cadena de texto por el usuario, imprima True si la cantidad de caracteres en la cadena es un número par, o False si no lo es.
-#Autor:Stiven Aparicio Vega
-#Fecha:25/09/2025
+#Autor:Walter Fabian Pinto Gutierrez
+#Fecha:02/08/2026
 #Entradas
-texto=input("Escriba un texto: ")
-cantidad=len(texto)
-if(cantidad%2==0):
-    resultado=True
-    print(resultado)
+texto = input("Ingrese una cadena de texto: ")
+cantidad = len(texto)
+print("La cadena tiene", cantidad, "caracteres.")
+if cantidad % 2 == 0:
+    print("La cantidad de caracteres es PAR:", True)
 else:
-    resultado=False
-    print(resultado)
+    print("La cantidad de caracteres es IMPAR:", False)
